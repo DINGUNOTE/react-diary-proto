@@ -1,0 +1,6 @@
+.diary-editor{padding:20px;text-align:center;border:1px solid gray;}
+.diary-editor input,
+.diary-editor textarea{margin-bottom:20px;padding:10px;width:500px;}
+.diary-editor textarea{height:150px;}
+.diary-editor select{margin-bottom:20px;padding:10px;width:300px;}
+.diary-editor button{padding:10px;width:500px;cursor:pointer;}
