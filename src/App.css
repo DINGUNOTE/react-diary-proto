@@ -4,3 +4,13 @@
 .diary-editor textarea{height:150px;}
 .diary-editor select{margin-bottom:20px;padding:10px;width:300px;}
 .diary-editor button{padding:10px;width:500px;cursor:pointer;}
+
+/* List */
+.diary-list{margin-top:20px;padding:20px;border:1px solid gray;}
+.diary-list h2{text-align:center;}
+
+/* Item */
+.diary-item{margin-bottom:10px;padding:20px;background-color:rgb(240, 240, 240);}
+.diary-item .info{margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid gray;}
+.diary-item .date{color:gray;}
+.diary-item .content{margin:30px 0;font-weight:bold;}
