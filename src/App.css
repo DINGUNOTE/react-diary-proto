@@ -14,3 +14,4 @@
 .diary-item .info{margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid gray;}
 .diary-item .date{color:gray;}
 .diary-item .content{margin:30px 0;font-weight:bold;}
+.diary-item textarea{width:500px;height:150px;resize:none;}
