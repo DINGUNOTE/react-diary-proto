@@ -73,7 +73,7 @@ const DiaryEditor = ({ onCreate }) => {
       </div>
       <div>
         <button type="button" onClick={handleSubmit}>
-          일기 저장하기
+          저장
         </button>
       </div>
     </div>
