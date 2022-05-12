@@ -91,7 +91,7 @@ const App = () => {
     const badCount = data.length - goodCount;
     const goodRatio = (goodCount / data.length) * 100;
     return { goodCount, badCount, goodRatio };
-  }, [data.length]);
+  }, [data]);
 
   const { goodCount, badCount, goodRatio } = getDiaryAnalysis;
 
