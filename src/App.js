@@ -84,7 +84,7 @@ const App = () => {
 
   const memoizedDispatches = useMemo(() => {
     return { onCreate, onRemove, onEdit };
-  }, []);
+  }, [onCreate, onRemove, onEdit]);
 
   const getDiaryAnalysis = useMemo(() => {
     const goodCount = data.filter(it => it.emotion >= 3).length;
